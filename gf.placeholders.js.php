@@ -15,7 +15,7 @@ var gf_placeholder = function() {
 			var $field = $(this);
 
 			var id = $field.attr('id');
-			var $label = $('label[for=' + id + ']');
+			var $label = $('label[for=' + id + ']').last();
 			var label = $label.text();
 
 			if (!$label.parents('.gfield_radio').length && !$label.parents('.gfield_checkbox').length)
