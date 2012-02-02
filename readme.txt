@@ -1,9 +1,9 @@
-=== Plugin Name ===
+=== Gravity Forms - Placeholders add-on ===
 Contributors: neojp
 Tags: gravityforms, placeholders, html5
 Tested up to: 3
 
-HTML5 placeholder support to the Gravity Forms plugin.
+Adds HTML5 placeholder support to Gravity Forms' fields with a Javascript fallback. Javascript & jQuery are required.
 
 == Description ==
 
