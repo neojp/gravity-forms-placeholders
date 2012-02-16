@@ -23,4 +23,4 @@ Adds HTML5 placeholder support to the Gravity Forms plugin copying the Field's l
 == GitHub source code ==
 
 You can find the source code at the GitHub repository, forks and pull requests are welcomed.
-http://github.com/neojp/gravityforms-placeholders/
+http://github.com/neojp/gravity-forms-placeholders/
