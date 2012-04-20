@@ -12,6 +12,9 @@ Adds HTML5 placeholder support to Gravity Forms' fields with a Javascript fallba
 
 Adds HTML5 placeholder support to the Gravity Forms plugin copying the Field's label as the placeholder and hidding it. Javascript fallback is used for old browsers that don't support the HTML5 placeholder attribute.
 
+You can find the source code at the GitHub repository, forks and pull requests are welcomed.
+http://github.com/neojp/gravity-forms-placeholders/
+
 
 == Installation ==
 
