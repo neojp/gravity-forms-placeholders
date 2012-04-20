@@ -1,24 +1,38 @@
 === Gravity Forms - Placeholders add-on ===
 Contributors: neojp
-Tags: gravityforms, placeholders, html5
-Tested up to: 3
+Tags: gravityforms, gravity, forms, placeholders, html5
+Requires at least: 3.1
+Tested up to: 3.3.2
+Stable tag: 1.1
 
 Adds HTML5 placeholder support to Gravity Forms' fields with a Javascript fallback. Javascript & jQuery are required.
+
 
 == Description ==
 
 Adds HTML5 placeholder support to the Gravity Forms plugin copying the Field's label as the placeholder and hidding it. Javascript fallback is used for old browsers that don't support the HTML5 placeholder attribute.
 
+
 == Installation ==
 
 1. Upload all files to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in the WordPress Admin Panel
 3. Add the CSS class `gplaceholder` to text fields or textareas as needed, you can also add it to the form itself to enable this feature to all fields within it.
+
 
 == Changelog ==
 
-= 0.1 =
+= 1.1 =
+* Rename gf.placeholders.js.php to gf.placeholders.js
+* Append a jquery.placeholder.js url as a js variable on the <head> tag instead of using php on gf.placeholders.js.php - improves performance by using static files
+* Always request a cached version of jquery.placeholder-1.0.1.js
+* Remove Modernizr support, use our simpler conditional - js performance improvement
+* Improved input and textarea filtering, added support for new HTML5 input types, eg. email, url, tel
+* Improved Javascript performance
+
+= 1.0 =
 * Initial version.
+
 
 == GitHub source code ==
 
