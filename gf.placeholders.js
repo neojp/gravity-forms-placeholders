@@ -32,7 +32,7 @@ var gf_placeholder = function() {
 		$.ajax({
 			cache: true,
 			dataType: 'script',
-			url: url,
+			url: jquery_placeholder_url,
 			success: function() {
 				$('input[placeholder], textarea[placeholder]').placeholder({
 					blankSubmit: true
