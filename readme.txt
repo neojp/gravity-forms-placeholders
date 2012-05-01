@@ -1,6 +1,6 @@
 === Gravity Forms - Placeholders add-on ===
 Contributors: neojp
-Tags: gravityforms, gravity, forms, placeholders, html5
+Tags: gravityforms, gravity, forms, placeholders, html5, jquery.placeholders.js
 Requires at least: 3.1
 Tested up to: 3.3.2
 Stable tag: 1.1.1
