@@ -1,9 +1,9 @@
 === Gravity Forms - Placeholders add-on ===
 Contributors: neojp
 Tags: gravityforms, gravity, forms, placeholders, html5, jquery.placeholders.js
-Requires at least: 3.1
+Requires at least: 3.0
 Tested up to: 3.3.2
-Stable tag: 1.1.1
+Stable tag: 1.2
 
 Adds HTML5 placeholder support to Gravity Forms' fields with a Javascript fallback. Javascript & jQuery are required.
 
@@ -24,6 +24,9 @@ http://github.com/neojp/gravity-forms-placeholders/
 
 
 == Changelog ==
+
+= 1.2 =
+* Fix the enqueuing urls of Javascript files when using a Symlink as the plugins directory
 
 = 1.1.1 =
 * Rename variable url to jquery_placeholder_url
