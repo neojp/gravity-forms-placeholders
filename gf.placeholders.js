@@ -24,7 +24,7 @@ var gf_placeholder = function() {
 				label = label.substring(0, label.length-1) + ' *';
 			}
 
-			$field.attr('placeholder', label);
+			$field[0].setAttribute('placeholder', label);
 		});
 
 	var support = (!('placeholder' in document.createElement('input'))); // borrowed from Modernizr.com
