@@ -44,7 +44,7 @@ var gf_placeholder = function() {
 
 $(document).ready(function(){
 	gf_placeholder();
-	$(document).bind('gform_page_loaded', gf_placeholder);
+	$(document).bind('gform_post_render', gf_placeholder);
 });
 
 })(jQuery);
